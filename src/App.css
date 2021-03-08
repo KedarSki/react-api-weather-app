@@ -1,0 +1,10 @@
+* {
+    margin: 15px;
+}
+
+.jumbo {
+    text-align: center;
+    background-size: cover;
+    margin-top: 10px;;
+    height: 405px;
+}
