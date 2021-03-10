@@ -1,7 +1,8 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import { Jumbotron, Form, Container } from "react-bootstrap";
+import { Jumbotron, Form, Container, Button } from "react-bootstrap";
+import { WiDaySunny } from "weather-icons-react";
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
             <Form.Group controlId="formBasicEmail">
               <Form.Control type="email" placeholder="Enter City and Country" />
             </Form.Group>
+            <Button variant="info">Search Weather</Button>{" "}
           </Form>
+          <i className={"fa fa-sun"}></i>
         </Jumbotron>
       </Container>
     </div>
