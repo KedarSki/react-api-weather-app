@@ -18,6 +18,9 @@ function App() {
             <Button variant="info">Search Weather</Button>{" "}
           </Form>
           <i className={"fa fa-sun"}></i>
+          <h3>Sunny</h3>
+          <h2 className={"temperature"}>Temperature</h2>
+          <h1>25&deg;C</h1>
         </Jumbotron>
       </Container>
     </div>
