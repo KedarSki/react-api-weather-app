@@ -4,7 +4,6 @@ import "./App.css";
 import { Jumbotron, Form, Container, Button } from "react-bootstrap";
 import { getWeatherData } from "./data/WeatherApi";
 import { ScaleLoader } from "react-spinners";
-import { WiDaySunny } from "weather-icons-react";
 
 function App() {
   const [weatherData, setWeatherData] = useState(null);
