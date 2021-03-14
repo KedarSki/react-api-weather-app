@@ -25,6 +25,9 @@ function App() {
             <i className={"fa fa-street-view"}> </i>
             Lodz | Poland
           </h3>
+          <h6 className={"temperature-range"}>
+            Min: 25&deg;C || Max: 28&deg;C || Humidity: 10%
+          </h6>
         </Jumbotron>
       </Container>
     </div>
