@@ -7,7 +7,7 @@ import { ScaleLoader } from "react-spinners";
 
 function App() {
   const [weatherData, setWeatherData] = useState(null);
-  const [city, setCity] = useState("");
+  const [city, setCity] = useState("Lodz");
   const [loading, setLoading] = useState(false);
 
   const getData = async () => {
