@@ -21,6 +21,10 @@ function App() {
           <h3>Sunny</h3>
           <h2 className={"temperature"}>Temperature</h2>
           <h1>25&deg;C</h1>
+          <h3 className={"location"}>
+            <i className={"fa fa-street-view"}> </i>
+            Lodz | Poland
+          </h3>
         </Jumbotron>
       </Container>
     </div>

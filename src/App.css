@@ -17,3 +17,20 @@ color: darkgrey;
     color: white;
 
 }
+
+.location i {
+    margin-right: 10px;
+    animation: location 2s infinite;
+}
+
+@keyframes location {
+    0% {
+        transform: rotateY(0deg);
+    }
+    50% {
+        transform: rotateY(180deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
