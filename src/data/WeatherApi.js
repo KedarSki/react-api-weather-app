@@ -6,7 +6,7 @@ const apiKey = "f86740c4006c0c8996a4492e4e8f2df9";
 
 export const getWeatherData = async (cityName) => {
   try {
-    const { data } = await axios.get(baseURL + "q=${cityName}&appid=${apiKey}");
+    const { data } = await axios.get(baseURL + `q=${cityName}&appid=${apiKey}`);
     return data;
   } catch (error) {
     throw error;
